@@ -1675,8 +1675,15 @@ p{
   padding:100px 0;
 }
 
-.section-3{
+.section-3, .section-4{
   padding:90px 0;
+  background-color:#0F0F0F;
+  color:#fff;
+}
+
+footer{
+  padding-top:80px;
+  padding-bottom:60px;
   background-color:#0F0F0F;
   color:#fff;
 }
@@ -1745,6 +1752,16 @@ p{
 
 
 /* ==========================================================================
+   Footer Form
+   ========================================================================== */
+
+.footer-form{
+  background-color:#00D9D0;
+  color:#fff;
+  padding:100px 80px;
+}
+
+/* ==========================================================================
    Misc
    ========================================================================== */
 
@@ -1777,6 +1794,18 @@ p{
 
 .top-offset{
   margin-top:-150px;
+}
+
+.team .padding-left{
+  padding-left:20px;
+}
+
+.team .padding-right{
+  padding-right:20px
+}
+
+.align-center{
+  align-items: center;
 }
 
 
