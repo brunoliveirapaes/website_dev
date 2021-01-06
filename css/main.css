@@ -1453,7 +1453,7 @@ p{
 }
 
 .main-nav{
-  padding:22px;
+  padding:22px 0;
 }
 
 .main-nav .btn{
@@ -1548,6 +1548,10 @@ p{
   transition: 500ms width ease;
 }
 
+.btn-ball-white{
+  background-color:#fff!important;
+}
+
 .btn-blue-ball:hover .btn-ball{
   width:216px;
   border-radius: 20px;
@@ -1556,6 +1560,10 @@ p{
 
 .btn-blue-ball:hover{
   color:#fff;
+}
+
+.btn-white-ball:hover{
+  color:#00D9D0!important;
 }
 
 .btn-arrow{
@@ -1672,6 +1680,69 @@ p{
   background-color:#0F0F0F;
   color:#fff;
 }
+
+/* ==========================================================================
+   artigos
+   ========================================================================== */
+
+.banner-img{
+  margin-top:50px;
+}
+
+.primary-article{
+  margin-top:-50%;
+  background-color:#00D0C7;
+  padding:75px 65px;
+}
+
+.primary-article .btn-blue-ball{
+  margin-top:25px;
+}
+
+.article-title{
+  font-size:26px;
+  line-height: 43px;
+  margin-top:0;
+  margin-bottom:25px;
+}
+
+.article-title:after{
+  contain: "";
+  margin-bottom:30px;
+}
+
+.article-short{
+  font-size:18px;
+}
+
+.articles .subtitle{
+  color:#999;
+}
+
+.articles{
+  margin-top:80px;
+}
+
+.articles a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.articles a:hover .article-title{
+  text-decoration:underline;
+}
+
+.articles .article-title{
+  font-size:22px;
+  font-weight:600;
+  margin-top:0;
+  margin-bottom:15px;
+}
+
+.articles .article-short{
+  font-size:16px;
+}
+
 
 /* ==========================================================================
    Misc
