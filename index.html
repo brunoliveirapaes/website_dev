@@ -18,14 +18,89 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
   <meta name="theme-color" content="#fafafa">
+  
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+      <!-- Module Navigation-->
+      <div class="full-width nav-bar sticky-bar transparent-nav">
+        <div class="wrapper">
+          <nav class="main-nav">
+              <ul>
+                  <li><a href="#"><img src="img/logo-dark.svg"></a></li>
+                  <li><a href="#">Insights</a></li>
+                  <li><a href="#">Serviços</a></li>
+                  <li><a href="#">Indústrias</a></li>
+                  <li><a href="#">Sobre</a></li>
+                  <li><a class="btn" href="">Contactos</a></li>
+              </ul>
+              
+          </nav>
+        </div>
+      </div>
+      <!-- END Module Navigation-->
+  </header>
+
+  <section class="slider">
+    <!-- Module Main Slider -->
+    <div class="slider-wrap">
+        <div class="slider" id="slider">
+          <div class="holder">
+            <div class="slide" id="slide-0">
+              <div class="wrapper">
+                <div class="row main-block">
+                  <div class="col-lg-1">
+                    <span>01/03</span>
+                  </div>
+                  <div class="col-lg-5">
+                    <span class="subtitle">AGÊNCIA DE ESTRATÉGIA DIGITAL</span>
+                    <h1>A evolução do seu<br> negócio começa<br> aqui e agora</h1>
+                  </div>
+                  <div class="col-lg-1"></div>
+                  <div class="col-lg-5"></div>
+                </div>
+              </div>
+              
+            </div>
+            <!--
+            <div class="slide" id="slide-1"></div>
+            <div class="slide" id="slide-2">></div>
+            -->
+          </div>
+        </div>
+        <nav class="slider-nav">
+          <a href="#slide-0" class="active">Slide 0</a> 
+          <a href="#slide-1">Slide 1</a> 
+          <a href="#slide-2">Slide 2</a> 
+        </nav>
+    </div>
+     <!-- END Module Main Slider -->
+  </section>
+
+  <section>
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <span class="subtitle">O QUE FAZEMOS</span>
+          <h2>Adicionamos valor<br>ao seu futuro</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <p>Desenhamos a transformação do seu negócio com estratégia, tecnologia e criatividade, para que se possa focar nos seus clientes.</p>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
