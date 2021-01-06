@@ -93,10 +93,13 @@ html, body{
 
 h1{
   font-size:50px;
+  margin:0.2em 0;
+  line-height: 82px;
 }
 
 h2{
   font-size:45px;
+  margin:0.2em 0;
 }
 
 p{
@@ -125,6 +128,10 @@ p{
   padding:0 15px;
 }
 
+.carousel-wrapper{
+  max-width: 1110px;
+}
+
 .row{
   display: flex;
   flex-wrap: wrap;
@@ -132,7 +139,6 @@ p{
   width: 100%;
   max-width: 100%;
 }
-
 
 @media (min-width: 576px) {
   .col-sm-12 {
@@ -226,7 +232,7 @@ p{
 }
 
 /* ==========================================================================
-   buttons primary
+   buttons
    ========================================================================== */
 
 .btn{
@@ -242,6 +248,65 @@ p{
   filter: drop-shadow(0px 0px 10px #00D9D0);
   font-weight:700;
 }
+
+.btn-light{
+  color:#1F1F1F;  
+}
+
+.btn-dark{
+  color:#fff;
+}
+
+.btn-blue-ball{
+  display:flex;
+  font-weight:600;
+  font-size:16px;
+  align-items: center;
+  text-decoration: none;
+  transition: 500ms color ease;
+}
+
+.btn-blue-ball span{
+  position: absolute;
+  margin-left:62px;
+}
+
+.btn-ball{
+  width:42px;
+  height:42px;
+  border-radius: 20px;
+  background-color:#00D9D0;
+  transition: 500ms width ease;
+}
+
+.btn-blue-ball:hover .btn-ball{
+  width:216px;
+  border-radius: 20px;
+  filter: drop-shadow(0px 0px 10px #00D9D0);
+}
+
+.btn-blue-ball:hover{
+  color:#fff;
+}
+
+.btn-arrow{
+  position: absolute;
+  margin-top: 17px;
+  margin-left: 13px;
+  transition:500ms all ease;
+}
+
+.btn-blue-ball:hover .btn-arrow,
+.btn-blue-ball:visited .btn-arrow{
+  transform:translateX(159px);
+}
+
+.btn-blue-ball:visited .btn-ball{
+  width:216px;
+  border-radius: 20px;
+}
+
+
 
 /* ==========================================================================
    Main Page Slider
