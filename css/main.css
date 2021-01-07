@@ -1508,6 +1508,10 @@ p{
   font-size:20px;
 }
 
+.carousel-wrapper a:hover .service-title{
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    buttons
    ========================================================================== */
@@ -1653,6 +1657,21 @@ p{
   background: #999;
 }
 
+.project-cta{
+  background-color: #00D9D0;
+  min-height:313px;
+  padding:60px;
+  color:#fff;
+}
+
+.project-cta span{
+  font-size:22px;
+}
+
+/* ==========================================================================
+   carousel
+   ========================================================================== */
+
 .owl-carousel .owl-stage-outer{
   padding-left:40px;
 }
@@ -1692,6 +1711,16 @@ p{
 /* ==========================================================================
    Sections
    ========================================================================== */
+.section-0{
+  position: relative;
+  z-index:1;
+}
+
+.offset{
+  position: relative;
+  z-index: 2;
+  margin-top:-20%;
+} 
 
 .section-1{
   padding:150px 0;
